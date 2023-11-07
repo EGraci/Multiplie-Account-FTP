@@ -38,4 +38,9 @@ sudo chown -R www-data:www-data /var/www/[name folder]
 sudo find /var/www/[name folder] -type d -exec chmod 775 {} \;
 sudo find /var/www/[name folder] -type f -exec chmod 664 {} \;
 ```
+# Delete User FTP
+```
+pkill -u [username]
+userdel -r [username]
+```
 <b>Don't forget to  Restart Server FTP</b>
