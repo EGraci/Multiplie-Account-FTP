@@ -39,6 +39,7 @@ sudo find /var/www/[name folder] -type d -exec chmod 775 {} \;
 sudo find /var/www/[name folder] -type f -exec chmod 664 {} \;
 ```
 # Delete User FTP
+<b>Warning Delete Directory Access</b>
 ```
 pkill -u [username]
 userdel -r [username]
