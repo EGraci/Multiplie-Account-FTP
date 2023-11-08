@@ -38,6 +38,10 @@ sudo chown -R www-data:www-data /var/www/[name folder]
 sudo find /var/www/[name folder] -type d -exec chmod 775 {} \;
 sudo find /var/www/[name folder] -type f -exec chmod 664 {} \;
 ```
+# Show User FTP
+```
+cut -d: -f1 /etc/passwd
+```
 # Delete User FTP
 <b>Warning Delete Directory Access</b>
 ```
