@@ -42,6 +42,7 @@ sudo find /var/www/[name folder] -type f -exec chmod 664 {} \;
 <b>Warning Delete Directory Access</b>
 ```
 pkill -u [username]
-userdel -r [username]
+userdel -r [username] #Warning Delete Directory Access
+userdel [username]
 ```
 <b>Don't forget to  Restart Server FTP</b>
