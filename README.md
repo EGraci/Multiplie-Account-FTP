@@ -34,7 +34,7 @@ sudo usermod -d /var/www/[name folder] [name user]
 ```
 Change access folder
 ```
-sudo chown -R www-data:www-data /var/www/[name folder]
+sudo chown -R [username]:[username] /var/www/[name folder]
 sudo find /var/www/[name folder] -type d -exec chmod 775 {} \;
 sudo find /var/www/[name folder] -type f -exec chmod 664 {} \;
 ```
